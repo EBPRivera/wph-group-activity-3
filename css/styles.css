@@ -446,21 +446,21 @@ footer {
 #more-projects {
   display: none;
 }
-#skills {
+.content-list {
   padding: 50px 15px;
   text-align: center;
 }
-#skills h2 {
+.content-list h2 {
   color: #374054;
   margin-bottom: 50px;
 }
-#skills ul {
+.content-list ul {
   display: block;
   margin: 0 auto;
   padding: 0;
   max-width: 800px;
 }
-#skills li {
+.content-list li {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
