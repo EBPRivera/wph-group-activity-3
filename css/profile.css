@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Montserrat;
+}
+body {
+  line-height: 1;
+  background-color: #f3faff;
+}
+
+header img {
+  height: 75px;
+  width: 180px;
+  margin-left: 1cm;
+  margin-top: 0.75cm;
+}
+
+section h1 {
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 2cm;
+}
+.profiles {
+  display: flex;
+  height: 175px;
+  width: 700px;
+  margin: 3cm auto;
+  justify-content: space-between;
+}
+.profiles img {
+  height: 150px;
+  width: 150px;
+}
+.manage {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin: 5cm auto;
+  padding: 10px 0px;
+  width: 300px;
+  border: 1px solid black;
+}
+.profiles img:hover {
+  border: 5px solid rgb(0, 0, 0);
+}
+.profiles p {
+  color: rgb(59, 58, 58);
+  text-align: center;
+  margin-top: 1cm;
+}
+.user-profiles img:hover,
+p:hover {
+  border: 5px solid white;
+  color: white;
+}
